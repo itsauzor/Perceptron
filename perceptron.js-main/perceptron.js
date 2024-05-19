@@ -4,6 +4,7 @@ class Perceptron {
     this.bias = 0;
     this.learningRate = learningRate;
 
+    
     // Inicializa os pesos aleatoriamente
     for (let i = 0; i < inputSize; i++) {
       this.weights[i] = Math.random();
