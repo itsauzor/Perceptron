@@ -23,6 +23,7 @@ class Perceptron {
     return sum >= 0 ? 1 : 0;
   }
 
+  
   train(inputs, label) {
     const prediction = this.predict(inputs);
     const error = label - prediction;
